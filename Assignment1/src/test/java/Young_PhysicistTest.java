@@ -30,6 +30,7 @@ class Young_PhysicistTest {
         var Young_Physicist1 = new Young_Physicist();
         assertEquals( "Yes", Young_Physicist1.Func(2,x,y,z));
     }
+    @Test
     void Test4()
     {
         int [] x = {0};
